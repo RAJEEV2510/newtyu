@@ -1,0 +1,98 @@
+.export_Data{
+    width: 30%;
+    height: 55%;
+    background-color: #FEFEFE;
+    border-radius: 20px;
+    position: absolute;
+    top:-90%;
+    left:50%;
+    margin-top: -10%;
+    margin-left: -15%;
+    z-index: 999;
+    padding:5px 20px;
+    box-shadow: 1px 1px 5px gray;
+    transition:0.5s;
+}
+.export_Data_heading{
+    display: flex;
+    justify-content: space-between;
+}
+.export_Data_body_part1,.export_Data_body_part2
+{
+    display: flex;
+    width: 100%;
+    margin-top: 20px;
+  
+
+}
+/** part 1 start*/
+.export_Data_body_part1>:first-child,.export_Data_body_part1>:last-child{
+      width: 100%;
+      margin-top: -20px;
+  } 
+.export_Data_body_part1>:first-child{
+       margin-right: 20px;
+      
+    }    
+.export_Data_body_part1>:first-child>input,.export_Data_body_part1>:last-child>input{
+    width: 100%;
+    height: 27px;
+}
+
+/**part 1 --end*/
+
+/** part 2 start*/
+.export_Data_body_part2>:first-child,.export_Data_body_part2>:last-child{
+    width: 100%;
+    margin-top: -20px;
+}
+.export_Data_body_part2>:first-child{
+    margin-right: 20px;
+}
+.export_Data_body_part2>:first-child>input,.export_Data_body_part2>:last-child>input{
+    width: 100%;
+    height: 27px;
+}
+/**part 2 --end*/
+
+/**part 3 --lower*/
+.export_Data_lower
+{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    
+    margin-top: 20px;
+}
+.export_Data_lower>:first-child,.export_Data_lower>:last-child{
+    width: 50%;
+    
+}
+.export_Data_lower>:first-child{
+    margin-right: 20px;
+}
+.export_Data_lower>:first-child>button{
+    width: 100%;
+    height: 30px;
+    border: none;
+    border-radius: 5px;
+    border: 1px solid rgb(188, 224, 253);
+    cursor: pointer;
+    background-color: #FEFEFE;
+    transition: all;
+    transition-duration: 0.5s;
+}
+.export_Data_lower>:last-child>button{
+    height: 30px;
+    border: none;
+    border-radius: 5px;
+    border: 1px solid rgb(188, 224, 253);
+    width: 100%;
+    background-color: #FEFEFE;
+    cursor: pointer;
+    transition: all;
+    transition-duration: 0.5s;
+}
+.export_Data_lower>:first-child>button:hover,.export_Data_lower>:last-child>button:hover{
+    background-color: rgb(188, 224, 253);
+}

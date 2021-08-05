@@ -1,0 +1,136 @@
+:root {
+    --input-font-size: 18px;
+}
+
+.EditProfile {
+    flex: 4 1;
+    padding: 20px;
+    padding-right: 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+.heading {
+    font-size: 3em;
+    font-weight: bolder;
+}
+
+.heading p {
+    margin-block-start: 0px;
+    margin-block-end: 15px;
+}
+
+.form-container,
+.school-name,
+.address span,
+.contact span {
+    display: flex;
+    flex-direction: column;
+}
+
+.image-container,
+.address,
+.contact {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.profile-image {
+    width: 10%;
+    height: auto;
+}
+
+.upload-picture-btn,
+.delete-picture-btn {
+    height: fit-content;
+    width: fit-content;
+    padding: 0.5rem;
+    font-size: 1em;
+}
+
+.upload-picture-btn {
+    margin: 0px 1rem;
+    background: transparent;
+    border: 1px solid rgb(0, 168, 190);
+    border-radius: 2px;
+}
+
+.delete-picture-btn {
+    border: none;
+    border-radius: 2px;
+    background-color: rgb(238, 237, 237);
+}
+
+.form-container {
+    margin-top: 1rem;
+}
+
+.form-container label {
+    margin-bottom: 5px;
+}
+
+.form-container span,
+.form-container span input,
+.form-container span select {
+    font-size: var(--input-font-size);
+}
+
+.form-container input,
+.form-container select {
+    padding: 5px;
+    outline: none;
+    border: 1px solid black;
+}
+
+.school-name {
+    width: 95%;
+}
+
+.address {
+    margin: 1rem 0px;
+    justify-content: space-evenly;
+}
+
+.address span {
+    width: 100%;
+}
+
+.address span select {
+    width: 90%;
+}
+
+.contact {
+    justify-content: space-between;
+    width: 100%;
+}
+
+.contact span {
+    width: 100%;
+}
+
+.contact span input {
+    width: 91%;
+    outline: none;
+}
+
+.save-profile-btn {
+    width: fit-content;
+    height: fit-content;
+    margin-top: 3rem;
+    padding: 7px 20px;
+    border-radius: 5px;
+    font-size: 1em;
+    border: none;
+    background-color: var(--themeColor);
+}
+
+@media screen and (max-width: 780px) {
+    .address {
+        flex-direction: column;
+    }
+    .contact {
+        flex-direction: column;
+    }
+}

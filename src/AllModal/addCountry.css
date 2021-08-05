@@ -1,0 +1,74 @@
+.addCountry{
+    width: 30%;
+    height: 35%;
+    background-color: #FEFEFE;
+    border-radius: 20px;
+    position: absolute;
+    top:-60%;
+    left:50%;
+    margin-top: -10%;
+    margin-left: -15%;
+    z-index: 999;
+    padding:5px 20px;
+    box-shadow: 1px 1px 5px gray;
+    transition:0.5s;
+
+}
+.addCountry>div{
+    display: flex;
+    justify-content: space-between;
+}
+.addCountry_body{
+    display: flex;
+    flex-direction: column;
+
+}
+.addCountry_body>select{
+    width: 100%;
+    outline: none;
+    margin-top: 5px;
+    height: 30px;
+    border: 1px solid gray;
+}
+.addCountry_body>input{
+    width: 100%;
+    outline: none;
+    margin-top: 5px;
+    height: 30px;
+    border: 1px solid gray;
+}
+.addCountry_modal_button{
+    display: flex;
+    flex-direction: row-reverse;
+    margin-top: 15px;
+
+}
+.addCountry_modal_button>:first-child{
+    width: 50%;
+    height: 30px;
+    cursor: pointer;
+    border: 1px solid #BCE0FD;
+    background-color: white;
+    border-radius: 5px;
+}
+.addCountry_modal_button>:last-child{
+    
+
+    width: 50%;
+    margin-right: 10px;
+    height: 30px;
+    cursor: pointer;
+    border: none;
+    border: 1px solid #BCE0FD;
+    background-color: white;
+    border-radius: 5px;
+}
+
+.addCountry_modal_button>button{
+    transition: all;
+    transition-duration: 0.5s;
+}
+.addCountry_modal_button>button:hover{
+    background-color: #BCE0FD;
+   
+}

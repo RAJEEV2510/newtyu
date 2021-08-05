@@ -1,0 +1,147 @@
+.school_details_filter{
+    width: 30%;
+    height: 55%;
+    background-color: #FEFEFE;
+    border-radius: 20px;
+    position: absolute;
+    top:-80%;
+    left:50%;
+    margin-top: -10%;
+    margin-left: -15%;
+    z-index: 999;
+    padding:5px 20px;
+    box-shadow: 1px 1px 5px gray;
+    transition:0.5s;
+
+}
+.school_details_filter_upper_part{
+    display: flex;
+    justify-content: space-between;
+}
+
+.school_details_filter_mid_part{
+    margin-top: -30px;
+    text-transform: uppercase;
+}
+
+.school_details_filter_mid_part_child1,.school_details_filter_mid_part_child2,.school_details_filter_mid_part_child3{
+    width: 100%;
+    display: flex;
+ 
+    margin-top: 30px;
+
+
+}
+/* first child */
+.school_details_filter_mid_part_child1>:first-child,.school_details_filter_mid_part_child1>:last-child{
+    width: 50%;
+    height: 30px;
+
+}
+.school_details_filter_mid_part_child1>:first-child{
+    margin-right: 10px;
+}
+.school_details_filter_mid_part_child1>:first-child>select{
+    width: 100%;
+    outline: none;
+    height: 30px;
+    border-radius: 5px;
+}
+.school_details_filter_mid_part_child1>:last-child>select{
+    width: 100%;
+    outline: none;
+    height: 30px;
+    border-radius: 5px;
+
+}
+
+/**Second child*/
+
+.school_details_filter_mid_part_child2>:first-child,.school_details_filter_mid_part_child2>:last-child{
+    width: 50%;
+    height: 30px;
+ 
+
+}
+.school_details_filter_mid_part_child2>:first-child{
+    margin-right: 10px;
+  
+}
+.school_details_filter_mid_part_child2>:first-child>select{
+    width: 100%;
+    outline: none;
+    height: 30px;
+    border-radius: 5px;
+}
+.school_details_filter_mid_part_child2>:last-child>select{
+    width: 100%;
+    outline: none;
+    height: 30px;
+    border-radius: 5px;
+
+}
+/**Third Child*/
+
+
+.school_details_filter_mid_part_child3>:first-child,.school_details_filter_mid_part_child3>:last-child{
+    width: 50%;
+    height: 30px;
+   
+
+}
+.school_details_filter_mid_part_child3>:first-child{
+    margin-right: 10px;
+}
+.school_details_filter_mid_part_child3>:first-child>input{
+    width: 100%;
+    outline: none;
+    height: 30px;
+    border-radius: 5px;
+    border: 1px solid gray;
+}
+.school_details_filter_mid_part_child3>:last-child>input{
+    width: 100%;
+    outline: none;
+    height: 30px;
+    border-radius: 5px;
+    border: 1px solid gray;
+
+}
+
+
+/**lower part of button */
+.school_details_filter_lower_part{
+    margin-top: 20px;
+    display: flex;
+    width: 100%;
+}
+.school_details_filter_lower_part>:first-child{
+    margin-top: 30px;
+    display: flex;
+    width: 50%;
+   
+    margin-right: 10px;
+}
+.school_details_filter_lower_part>:last-child{
+    margin-top: 30px;
+    border: none;
+   
+    display: flex;
+    width: 50%;
+}
+.school_details_filter_lower_part>:first-child>button,.school_details_filter_lower_part>:last-child>button{
+    width: 100%;
+    border-radius: 5px;
+    border: none;
+    border: 1px solid #BCE0FD;
+    height: 30px;
+    background-color: #FEFEFE;
+    transition: all;
+    transition-duration: 0.5s;
+    cursor: pointer;
+}
+.school_details_filter_lower_part>:first-child>button:hover,.school_details_filter_lower_part>:last-child>button:hover{
+
+    background-color: #BCE0FD;
+
+}

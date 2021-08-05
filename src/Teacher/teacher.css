@@ -1,0 +1,74 @@
+.teacher{
+    flex: 4;
+    display: flex;
+    flex-direction: column;
+}
+.Teacher_MainBody_RIGHT{
+    flex: 4;
+    background-color: white;
+    padding: 10px 10px;
+    display: flex;
+    flex-direction: column;
+    
+}
+.Teacher_MainBody_Right_searchNav{
+    background-color: #BCE0FD;
+    border-radius: 10px;
+  
+
+    
+}
+.Teacher_MainBody_Right_mid
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:20px ;
+    border-bottom: 1px solid rgb(223, 218, 218);
+}
+.Teacher_MainBody_Right_mid_right{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: var(--font-type);
+}
+.Teacher_MainBody_Right_mid_right>.item{
+
+    display: flex;
+    align-items: center;
+    margin-right: 10px;
+    font-weight: 600;
+    cursor: pointer; 
+    
+}
+.Teacher_MainBody_Right_mid_right_icon
+{
+    margin-right: 5px;
+    margin-top: 6px;
+}
+.Teacher_MainBody_Right_mid_left{
+    display: flex;
+    align-items: center;
+    font-family: var(--font-type);
+    font-weight: 600;
+}
+.Teacher_MainBody_Right_mid_left>.item
+{
+    margin-right: 5px;
+    margin-top: 6px;  
+    cursor: pointer; 
+}
+.Teacher_MainBody_Right_cards{
+    margin-top:20px;
+   
+    display: flex;
+    flex-wrap: wrap;
+
+}
+.teacher_upper_body{
+    width: 97%;
+    padding: 10px;
+}
+.teacher_lower_body{
+    margin-top: -20px;
+}

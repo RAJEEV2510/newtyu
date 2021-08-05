@@ -1,0 +1,244 @@
+.addTeacher{
+    width: 30%;
+    height: auto;
+    background-color: #FEFEFE;
+    border-radius: 20px;
+    position: absolute;
+    top:-150%;
+    left:50%;
+    margin-top: -175px;
+    margin-left: -175px;
+    z-index: 999;
+    padding:5px 20px;
+    box-shadow: 1px 1px 5px gray;
+    padding-bottom:15px ;
+    transition:0.5s;
+  
+}
+input{
+    border-radius:5px ;
+}
+
+.add_teacher_form{
+    display: flex;
+    margin-top: -10px;
+    flex-direction: column;
+}
+
+.teacherName{
+    display: flex;
+
+}
+
+
+.teacherName>div{
+    width: 50%;
+  
+}
+.teacherName>:first-child{
+    margin-right: 14px;
+    
+}
+.teacherName>:last-child{
+    margin-left: 4px;
+    
+}
+
+
+.teacherName>div>input{
+    width: 99.4%;
+    outline: none;
+    border: 1px solid gray;
+    height: 25px;
+}
+.teacherName>div>label{
+    font-weight: 500;
+    font-size: 14px;
+}
+
+.email_contact{
+    display: flex;
+    width: 100%;
+
+}
+
+.email{
+    width: 50%;
+    margin-right: 20px;
+    
+}
+.email,.contact,.role,.signup,.expiryDate>label{
+    font-weight: 500;
+    font-size: 14px;
+}
+
+.contact>input{
+    width:100%;
+    outline: none;
+    border: 1px solid gray;
+    height: 25px;
+    margin-bottom: 10px;
+    margin-top: 6px;
+}
+.email>input{
+    width:100%;
+    outline: none;
+    height: 25px;
+    outline: none;
+    border: 1px solid gray;
+    height: 25px;
+    margin-bottom: 10px;
+    margin-top: 6px;
+}
+.contact{
+    width: 50%;
+}
+
+.expiryDate{
+    width:100%;
+    display:flex;
+    font-weight: 500;
+}
+
+
+.expiryDate>div{
+    width: 50%;
+    outline: none;
+   
+  
+   
+}
+.expiryDate>:first-child{
+    margin-right: 20px;
+
+}
+.expiryDate>:first-child>input{
+    width: 102.5%;
+    height: 27px;
+}
+.expiryDate>:last-child>input{
+    width: 101%;
+   
+}
+
+.add-teacher-btn{
+    display: flex;
+    justify-content: center;
+}
+
+.cancelBtn{
+   flex:1;
+}
+
+.cancelBtn>button{
+    width: 90%;
+    height: 30px;
+    margin: 10px;
+ 
+}
+
+.createBtn{
+    flex:1;
+    
+}
+
+.createBtn>button{
+    width: 90%;
+    height: 30px;
+    margin: 10px;
+    margin-right: 10px;
+}
+
+.createBtn>button,.cancelBtn>button{
+    border: none;
+    background-color: #FEFEFE;
+    cursor: pointer;
+    border: 1px solid #5CE0D2;
+    font-size: 14px;
+    border-radius: 4px;
+    font-weight: 400;
+}
+
+
+.createBtn>button:hover,.cancelBtn>button:hover{
+background-color: #5CE0D2;
+}
+
+.selectionBoxBlock{
+    display: flex;
+    width: 101.5%;
+    
+}
+.selectionBoxBlock>div{
+     height: auto;
+}
+.addClasses{
+    width: 25%;
+  
+}
+.addClasses>select{
+    height: 47px;
+    width: 100%;
+    outline:none;
+    border: 1px solid rgb(196, 192, 192);
+    color:rgb(117, 117, 117);
+    border-radius:5px ;
+}
+.selectionBoxBlock>:last-child{
+    width: 40%;
+   
+}
+.addSection{
+    width: 40%;
+   
+}
+.schoolSelect>select{
+    outline: none;
+    border-radius:5px ;
+    height: 28px;
+    margin-top: 6px;
+}
+
+
+.schoolSelect>input{
+    width: 100%;
+    margin-top: 6px;
+    height: 25px;
+    background-color: white;
+    border: 1px solid gray;
+}
+
+
+.role_signup{
+    display: flex;
+    width: 100%;
+
+}
+.role{
+    width: 50%;
+    margin-top: -10px!important;
+  
+}
+
+.signup{
+    width: 50%;
+  
+}
+
+.role>input,.role>select{
+
+    width: 103%;
+    outline: none;
+   
+    height: 30px;
+  }
+.signup>input{
+    width: 94.5%;
+    outline: none;
+    border: 1px solid gray;
+    height: 25px;
+    margin-bottom: 10px;
+    margin-top: 1px;
+    margin-left: 10px!important;
+   
+}

@@ -1,0 +1,292 @@
+.addStudent{
+    width: 30%;
+    height: auto;
+    background-color: #FEFEFE;
+    border-radius: 20px;
+    position: absolute;
+    top:-100%;
+    left:50%;
+    margin-top: -175px;
+    margin-left: -175px;
+    z-index: 999;
+    padding:5px 20px;
+    box-shadow: 1px 1px 5px gray;
+    padding-bottom:30px ;
+    transition:0.5s;
+}
+.addStudent::-webkit-scrollbar{
+    display: none;
+}          
+
+
+.student_school{
+    width: 100%;
+    display: flex;
+}
+
+.add_student_form{
+    display: flex;
+    margin-top: -10px;
+    flex-direction: column;
+     
+}
+
+.branch_password{
+    width: 100%;
+    display: flex;
+    font-weight: 600;
+}
+
+.branch>select{
+    height: 30px;
+   color:gray;
+}
+.branch{
+    width: 47%;
+    margin-right: 20px;
+}
+.branch>select{
+    width: 104%;
+    border-radius: 5px;
+}
+
+.password{
+    width: 50%;
+    margin-top: -2px;
+    
+    
+}
+
+.password>label,.schoolName>label{
+    font-weight: 600;
+}
+.schoolName{
+    width: 50%;
+}
+
+.studentName{
+    width: 48%;
+    margin-right: 20px;
+}
+.studentName>input{
+    width: 100%;
+    outline: none;
+    border: 1px solid gray;
+    height: 25px;
+    margin-bottom: 10px;
+    margin-top: 6px;
+}
+.studentName>label{
+    font-weight: 500;
+    font-size: 14px;
+}
+.class_email{
+    display: flex;
+    width: 100%;
+
+}
+.classstudent{
+    width: 50%;
+
+    margin-right: 15px;
+    
+}
+.classstudent,.emailstudent,.contactstudent,.signupstudent,.expiryDate>label{
+    font-weight: 500;
+    font-size: 14px;
+}
+
+.classstudent>select{
+    width:100%;
+    outline: none;
+    border: 1px solid gray;
+    height: 27px;
+    margin-bottom: 10px;
+    margin-top: 6px;
+    border-radius: 5px;
+    
+}
+
+.emailstudent{
+    width: 50%;
+    
+}
+.emailstudent>select{
+
+    width:103.5%;
+    outline: none;
+    height: 30px;
+    outline: none;
+    border: 1px solid gray;
+    height: 25px;
+    margin-bottom: 10px;
+    margin-top: 6px;
+    border-radius: 5px;
+}
+
+.classstudent>input{
+    width:100%;
+    outline: none;
+    height: 25px;
+    outline: none;
+    border: 1px solid gray;
+    height: 25px;
+    margin-bottom: 10px;
+    margin-top: 6px;
+
+}
+
+.contact_signup{
+    display: flex;
+    width: 100%;
+
+}
+
+
+.contactstudent{
+    width: 47%;
+    margin-right: 15px;
+
+}
+.signupstudent{
+    width: 50%;
+    margin-right: 10px;
+   
+}
+
+.contactstudent>input{
+    width:100%;
+    outline: none;
+    border: 1px solid gray;
+    height: 25px;
+    margin-bottom: 10px;
+    margin-top: 6px;
+  
+   
+}
+.signupstudent>input{
+    width:102%;
+    outline: none;
+    height: 27px;
+    outline: none;
+    border: 1px solid gray;
+   margin-bottom: 10px;
+    margin-top: 6px;
+    margin-left: 10px;
+
+}
+
+
+.expiryDate>input{
+    width: 100%;
+    outline: none;
+    border: 1px solid gray;
+    height: 25px;
+    margin-bottom: 10px;
+    margin-top: 6px;
+}
+
+.add-student-btn{
+    display: flex;
+ 
+    max-width: 100%;
+    justify-content: center;
+}
+.cancelBtn{
+   flex:1;
+}
+.cancelBtn>button{
+    width: 90%;
+    height: 30px;
+    margin: 10px;
+ 
+}
+
+.createBtn{
+    flex:1;
+    
+}
+.createBtn>button{
+    width: 90%;
+    height: 30px;
+    margin: 10px;
+    margin-right: 10px;
+}
+.createBtn>button,.cancelBtn>button{
+    border: none;
+    background-color: #FEFEFE;
+    cursor: pointer;
+    border: 1px solid #5CE0D2;
+    font-size: 14px;
+    border-radius: 4px;
+    font-weight: 400;
+}
+
+
+.createBtn>button:hover,.cancelBtn>button:hover{
+background-color: #5CE0D2;
+}
+input[type="date"]{
+    color:gray;
+}
+.expiryClass{
+  
+    font-weight: 500;
+}
+.expiryClass>label{
+    font-size: 15px;
+    margin-left: -10px;
+}
+.expiryClass>input{
+   
+    height: 27px;
+    border: 1px solid gray;   
+}
+
+.schoolName{
+    
+    
+   
+
+}
+.schoolName>input{
+    width: 101%;
+    text-transform: capitalize;
+    margin-top: 6px;
+    height: 24px;
+}
+
+.branch{
+    
+    width: 52%;
+    margin-top:-2px ;
+
+}
+.branch>input{
+    width: 96%;
+    margin-top: 6px;
+    height: 25px;
+    border: 1px solid gray;
+}
+.password>input{
+    width: 100%;
+    margin-top: 6px;
+    height: 25px;
+    border: 1px solid gray;
+}
+.password{
+    
+    width: 52%;
+}
+
+.emailstudent{
+    width: 48%;
+    margin-top: 6px;
+    height: 25px;
+}
+.emailstudent>input{
+    width: 90%;
+    margin-top: 6px;
+    height: 25px;
+    border: 1px solid gray;
+}

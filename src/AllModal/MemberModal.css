@@ -1,0 +1,161 @@
+.filterMember{
+    width: 30%;
+    height: 60%;
+    background-color: #FEFEFE;
+    border-radius: 20px;
+    position: absolute;
+    top:-50%;
+    left:50%;
+    margin-top: -175px;
+    margin-left: -175px;
+    z-index: 999;
+    padding:5px 20px;
+    box-shadow: 1px 1px 5px gray;
+    transition:0.5s;
+}
+.filterMember_school{
+    width: 30%;
+    height: 67%;
+    background-color: #FEFEFE;
+    border-radius: 20px;
+    position: absolute;
+    top:-50%;
+    left:50%;
+    margin-top: -175px;
+    margin-left: -175px;
+    z-index: 999;
+    padding:5px 20px;
+    box-shadow: 1px 1px 5px gray;
+    transition:0.5s;
+
+}
+
+.filterMember_form{
+    display: flex;
+    margin-top: -10px;
+    flex-direction: column;
+}
+.filterMember_form>div{
+    width: 100%;
+}
+.filter_school,.selectSection>label{
+
+    font-weight: bold;
+  
+}
+
+.filter_school>select
+{
+    margin-top: 10px;
+    width: 100%;
+    outline: none;
+    border:none;
+    height: 30px;
+    border: 1px solid gray;
+    margin-bottom: 10px;   
+}
+
+.filter_branch_role{
+    display: flex;
+    width: 100%;
+}
+.filter_branch{
+    flex:1;
+}
+.filter_branch>label,.filter_role>label
+{
+    font-weight: bold;
+}
+.filter_role{
+    flex:1;
+}
+.filter_role>select,.filter_branch>select
+{
+    margin-top: 10px;
+    width: 100%;
+    outline: none;
+    border:none;
+    height: 30px;
+    border: 1px solid gray;
+    margin-bottom: 10px;   
+
+}
+.filter_branch{
+   margin-right: 20px;
+}
+
+
+.filter_signupDate_filter_ExpiryDate{
+    display: flex;
+    width: 100%;
+
+}
+.filter_signupDate,.filter_expiryDate{
+flex: 1;
+
+}
+.filter_signupDate>label,.filter_expiryDate>label{
+
+    font-weight:bold;
+
+}
+.filter_signupDate>input,.filter_expiryDate>input{
+    width: 100%;
+    height: 30px;
+    outline: none;
+    margin-top: 10px;
+}
+.filter_signupDate{
+    margin-right: 20px;
+    
+}
+
+.filter-teacher-btn{
+    display: flex;
+    margin-top: 20px;
+    width: 100%;
+    
+}
+.filter_createBtn
+{
+      flex: 1;
+      margin-right: 20px;
+    
+}
+.filter_createBtn>button,.filter_cancelBtn>button{
+    width: 100%;
+    border:none;
+    border:1px solid #BCE0FD;
+    background-color: white;
+    font-weight: bold;
+    padding:5px 0;
+    transition: 0.8s;
+    cursor: pointer;
+    height: 34px;
+    border-radius: 5px;
+}
+.filter_createBtn>button:hover,.filter_cancelBtn>button:hover{
+        background-color: #BCE0FD;
+
+
+}
+
+.filter_cancelBtn
+{ 
+    flex: 1;
+
+}
+
+.selectSection{
+
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  
+}
+.selectSection>select{
+    height: 27px;
+    margin-top: 10px;
+    outline: none;
+}

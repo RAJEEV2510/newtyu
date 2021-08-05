@@ -1,0 +1,501 @@
+.grade{
+    flex:4;
+    padding: 10px;
+}
+
+
+.teacher_schedule_table_header{
+    display: flex;
+    align-items: center;
+    padding-bottom: 5px;
+    border-bottom: 1px solid rgb(194, 194, 194);
+    justify-content: space-between;
+}
+.teacher_schedule_table_header>div{
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+    cursor: pointer;
+}
+.teacher_schedule_table_header>:last-child{
+    display: flex;
+    font-weight: bold;
+    align-items: center;
+    cursor: pointer;
+}
+
+.teacher_schedule{
+    flex:4;
+    padding: 10px;
+}
+/* teacher info */
+
+
+.teacher_right_side{
+    flex:4;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.teacher_right_side_bottom{
+
+    display: flex;
+}
+
+.teacher_right_side_bottom_left
+{
+    flex:1;
+    height: 90vh;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;    
+}
+.teacher_right_side_bottom_left>div
+{
+    cursor: pointer;
+ 
+    padding:10px 5px!important;
+    border-radius: 5px;
+    margin-top: 25px;
+    font-weight:600;
+    width: 80%;
+   
+    
+}
+
+
+.teacher_right_side_bottom_right
+{
+    flex:4;
+ 
+   
+}
+.teacher_right_side_bottom_right>div{
+
+    display: none;
+}
+
+
+
+.school{
+    flex: 4;
+    background-color: white;
+    padding: 10px 10px;
+   
+
+}
+.school-parent{
+    display: flex;
+    width: 100%;
+}
+.school-left{
+    flex:1;
+    height: 100vh;
+    position: sticky;
+    top:0;
+   
+
+    
+}
+.school-right{
+    flex:4;
+ 
+}
+.activeschoolData{
+
+    border:1px solid rgb(223, 218, 218);
+
+}
+
+.schoolTab{
+    display: none;
+}
+
+.schoolRight{
+    padding: 20px;
+}
+.schoolDetails
+{
+    margin-top: 20px;
+    height: 30px;
+    width: 70%;
+    cursor: pointer;
+    padding:3px;    
+}
+.schoolDetails>h4{
+    margin-top: 2px;
+    margin-left: 5px;
+    text-transform: capitalize;
+    font-weight: 600;
+}
+.schoolDetails:first-child{
+    border:1px solid var(--themeColor);
+    border-radius: 10px ;
+}
+
+
+#schoolDetails{
+    display: block;
+   
+    cursor: pointer;
+}
+
+
+.rightSchoolDetails{
+    display: flex;
+    flex-direction: column;
+}
+.rightSchoolDetails_UpperDiv{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;   
+}
+.rightSchoolDetails_MidDiv{
+    width: 50%;
+    display: flex;
+    margin-top: 30px;
+    justify-content: space-around;   
+}
+.rightSchoolDetails_LowerDiv{
+    width: 50%;
+    display: flex;
+    margin-top: 30px;
+  
+    justify-content: space-around;   
+}
+
+.rightSchoolDetails_UpperDiv>div>span,.rightSchoolDetails_LowerDiv>div>span,.rightSchoolDetails_MidDiv>div>span{
+    color: gray;
+    font-size: 14px;
+}
+
+.school_breadcum{
+
+    margin-top: 20px;
+    height: 40px;
+    display: flex;
+    width: 100%;
+    border-bottom:1px solid var(--themeColor) ;
+}
+
+.teacher_right_side_bottom_right_info{
+
+    padding: 10px;
+}
+
+.upper_div_section{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 5px;
+    border-bottom: 1px rgb(223, 218, 218);
+    padding-bottom: 10px;
+}
+.upper_div_section_left{
+
+    margin-left: 20px;
+    display: flex;
+    align-items: center;
+    font-weight: 650;   
+}
+.upper_div_section_right{
+
+    display: flex;
+    align-items: center;
+    margin-right: 30px;
+   
+}
+.upper_div_section_right_export_csv{
+    margin-right: 20px;
+    display: flex;
+    align-items: center;
+    font-weight: 650;   
+    cursor: pointer;
+}
+.upper_div_section_right_sort{
+
+    display: flex;
+    align-items: center;
+    font-weight: 650;   
+    cursor: pointer;
+}
+.teacher_right_side_mid{
+    margin: 20px 10px;
+    border-bottom: 1px solid rgb(223, 218, 218);
+    padding-bottom: 10px;
+}
+.teacher_breadcum{
+    display: flex;
+    align-items: center;
+}
+
+
+
+.rightSchoolDetails{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    box-sizing: border-box;
+    padding-top:50px;
+    padding-left: 100px;
+    
+    height: 60vh;
+    font-family: var(--font-type);
+    font-weight: 600;
+    font-size: 15px;
+}
+
+.rightSchoolDetails-upper{
+    display: flex;
+    margin-bottom: 30px;
+}
+.rightSchoolDetails-upper-left{
+    width: 50%;
+}
+.rightSchoolDetails-upper-left>label{
+    display: block;
+    margin-bottom: 5px;
+}
+.rightSchoolDetails-upper-left>input{
+    display: block;
+    background-color: white;
+    width: 95%;
+    outline:none;
+    height: 28px;
+    border: 1px solid gray;
+    border-radius: 5px;
+}
+.rightSchoolDetails-upper-right>label{
+    display: block;
+    margin-bottom: 5px;
+}
+.rightSchoolDetails-upper-left>input::placeholder,.rightSchoolDetails-upper-right>input::placeholder{
+    padding-left: 10px;
+    text-transform: capitalize;
+}
+.rightSchoolDetails-lower-left>input::placeholder,.rightSchoolDetails-lower-right>input::placeholder{
+    padding-left: 10px;
+    text-transform: capitalize;
+}
+
+.rightSchoolDetails-upper-right>input{
+    display: block;
+    height: 28px;
+    outline:none;
+    width: 95%;
+    border-radius: 5px;
+    border: 1px solid gray;
+    background-color: white;
+}
+.rightSchoolDetails-upper-right{
+    width: 50%;
+}
+
+
+.rightSchoolDetails-lower{
+    display: flex;
+}
+.rightSchoolDetails-lower-left{
+    width: 50%;
+}
+.rightSchoolDetails-lower-left>label{
+    display: block;
+    margin-bottom: 5px;
+}
+
+.rightSchoolDetails-lower-left>select{
+
+    display: block;
+    width: 95%;
+    outline:none;
+    border: 1px solid gray;
+    border-radius: 5px;
+    height: 30px;
+    background-color: white;
+
+}
+
+
+.rightSchoolDetails-lower-left>input{
+    display: block;
+    width: 95%;
+    outline:none;
+    border: 1px solid gray;
+    border-radius: 5px;
+    height: 28px;
+    background-color: white;
+}
+.rightSchoolDetails-lower-right>label{
+    display: block;
+    margin-bottom: 5px;
+}
+.rightSchoolDetails-lower-right>input{
+    display: block;
+    height: 28px;
+    outline:none;
+    border: 1px solid gray;
+    border-radius: 5px;
+    width: 95%;
+    background-color: white;
+}
+.rightSchoolDetails-lower-right{
+    width: 50%;
+}
+
+.teacher_right_side_bottom_right_schedule{
+    padding-left: 100px;
+}
+.below_div_section{
+    margin-top: -20px;
+}
+
+.edit_save_button{
+  
+    display: flex;
+   
+    justify-content:flex-end;
+    align-items: center;
+
+}
+.edit_save_button>div{
+      
+        width: 200px;
+        height: 40px;
+        margin-right: 20px;
+        margin-top: 20px;
+      
+}
+.edit_save_button>div>button{
+    background-color: white;
+    cursor: pointer;    
+    font-size: 18px;
+    font-weight: 500;
+    border-radius:10px ;
+    height: 100%;
+    width: 100%;
+    border: 1px solid #5CE0D2;
+    transition: all;
+    transition-duration: 0.3s;
+}
+.edit_save_button>div>button:hover{
+    background-color: #5CE0D2;
+   
+}
+
+
+.staff_modal_assign_class{
+    width: 650px;
+    margin-top: -20px;
+    
+    
+}
+.staff_modal_assign_class_heading{
+    display: flex;
+    cursor: pointer;
+  
+    margin-bottom: 60px;
+    justify-content: space-between;
+
+}
+.staff_modal_assign_class_body{
+    height: 240px;
+    
+}
+.staff_modal_assign_class_body_selectBox{
+    display: flex;
+    width: 100%;
+    margin: 40px 0;
+    position: relative;
+  
+    
+}
+
+.staff_modal_assign_class_body_selectBox>div{
+    width: 30%;
+    height: 60px;
+  
+    padding:4px 5px ;
+   
+
+}
+.staff_modal_assign_class_body_selectBox>div>select{
+    height: 45px;
+    margin-top: 1px;
+    width: 90%;
+    line-height: 30px;
+    outline: none;
+    border: 0.4px solid rgb(172, 166, 166);
+    color: gray;
+    border-radius:5px ;
+    z-index: 1000000000;
+
+}
+.staff_modal_assign_class_body_selectBox>:last-child{
+
+    width: 40%;
+    padding:4px 10px ;
+ 
+
+}
+
+.addAnother{
+    position: absolute!important;
+    right: -20px;
+    width: 100px!important;
+    height: 20px!important;
+    top:-30px;
+    font-weight: 600;
+    cursor: pointer;    
+    
+}
+.linkAnother{
+
+    
+    position: absolute!important;
+    left: 0px;
+    font-weight: 600;
+    top:-30px;
+    cursor: pointer;
+}
+.modal_button{
+    display: flex;
+    width: 100%;
+    margin-top: 40px;
+    justify-content: space-around;
+
+}
+.modal_button>button{
+    background-color: white;
+   
+    width: 45%;
+    border-radius:5px ;
+    height: 35px;
+    cursor: pointer;
+    font-weight: 500;
+    font-size: 18px;
+    border:1px solid #5CE0D2 ;
+    border-color: #5CE0D2;
+    margin-bottom: 40px!important;
+}
+.modal_button>button:hover{
+    background-color: #5CE0D2;
+}
+.removeAnother{
+ 
+    position: absolute!important;
+   
+    right: 90px;
+    width: 140px!important;
+    top:-30px;
+ 
+   
+    height: 20px;
+    font-weight: 600;
+    cursor: pointer;    
+}
+
+
+/****---------------------------------------**/
